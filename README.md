@@ -1,4 +1,4 @@
-# Covid19-Dashboard
+# Covid19-Dashboard🦠
 
 ### Qo'llanma (uz):
 
