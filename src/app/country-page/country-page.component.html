@@ -1,0 +1,36 @@
+<div class="row p-4">
+    <div class="col" *ngIf="countryStatistics">
+        <div class="container">
+
+            <h1>
+                <img [src]="countryStatistics.countryInfo.flag" alt="Country image" class="country-flag">
+                {{countryStatistics.country}}
+            </h1>
+
+            <hr>
+
+            <div class="shadow p-3 mb-5 bg-white rounded w-75">
+                <ul class="list-group">
+
+                    <li class="list-group-item list-group-item-warning">
+                        <h5><i class="fa fa-thermometer-quarter"></i> Tasdiqlanganlar: {{countryStatistics.cases |
+                            number}}</h5>
+                    </li>
+
+                    <li class="list-group-item list-group-item-danger">
+                        <h5><i class="fa fa-user-times"></i> Vafot etganlar: {{countryStatistics.deaths | number}}
+                        </h5>
+                    </li>
+
+                    <li class="list-group-item list-group-item-success">
+                        <h5><i class="fa fa-medkit"></i> Tuzalganlar: {{countryStatistics.recovered | number}}</h5>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+
+</div>

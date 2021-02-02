@@ -1,0 +1,10 @@
+table {
+    font-weight: bold;
+    max-height: 1000px;
+
+    th {
+        position: sticky; 
+        top: -2px;
+        background-color: white;
+      }
+}
