@@ -46,5 +46,16 @@ $ ng serve
 
 <hr>
 
+### Deployment
+
+Deploymentdan oldin loyihani `build` qilish kerak. Buning uchun maxsus buyruqni tering:
+```bash
+$ ng build --prod
+```
+
+Undan so'ng sizda tayyor `dist/` katalogi paydo bo'ladi, ushbu katalogni **netlify**dagi hostingizga joylasangiz tamom *:)*
+
+Deployment Amalga oshirilgan: https://abduaziz-dashboard.netlify.app/
+
 >🤝Ushbu loyiha **"OMUC talabalari uchun tashkillashtirilgan intensiv kurs"** orqali tayyorlandi.
 **Mentor:** Ulugbek Samigjonov
